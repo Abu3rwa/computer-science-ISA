@@ -5,13 +5,9 @@ def bubble_sort():
     while not sorted:
         sorted = True
         for i in range(len(arr)-1):
-            print(arr[i], arr[i+1])
-            if arr[i]>arr[i+1]:
-                # arr[i],arr[i+1] = arr[i+1],arr[i]
-                # temp = arr[i]
-                # arr[i] = arr[i+1]
-                # arr[1+1] =  temp
+             if arr[i]>arr[i+1]:
                 sorted = False    
+                arr[i],arr[i+1] = arr[i+1],arr[i]
     print(arr)      
     return arr  
 
