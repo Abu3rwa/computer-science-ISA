@@ -60,15 +60,8 @@ elif number < 10:
     print("Number is less than 10")
 else:
     print("Number is equal to 10")
-
-
-
-
-
-
-
 # variable declaration: declaring a name of a variable without giving it a value.
-name
+name = ''
 # variable initialization: giving the valiable a value when you make it.
 name = "Khalid"
 
