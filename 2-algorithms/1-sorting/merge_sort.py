@@ -1,4 +1,6 @@
-def merge(arr1,arr2): # This is a helper function that takes two sorted list and combine then
+
+# This is a helper function that takes two sorted list and combine then
+def merge(arr1,arr2):
     # define and empty list.
     combined = []
     # define two variables i and j to used them with the two lists for the indexes
