@@ -1,3 +1,4 @@
+# DATA STRUCTURES: 
 # records / dictionaries: 
 # records or dictionaries are used to stored related data: like student data:
 student = {
